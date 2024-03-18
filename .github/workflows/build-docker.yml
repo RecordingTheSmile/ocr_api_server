@@ -10,7 +10,6 @@ env:
     REGISTRY: ghcr.io
 jobs:
     Build-And-Upload:
-      if: false
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
